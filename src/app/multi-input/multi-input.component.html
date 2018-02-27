@@ -1,0 +1,6 @@
+<span  *ngFor="let item of array; let i = index " (input)="change($event, i)" [ngClass]="(classList.itemClass)?classList.itemClass:null">
+	<ng-container [ngTemplateOutlet]="template"></ng-container> 
+	<span (click)="deleteAt(i)" *ngIf="array.length-1 != i" [className]="(classList.outerDeleteClass) ? classList.outerDeleteClass:  null">
+		<ng-container [ngTemplateOutlet]="deleteTemplate"></ng-container>
+	</span>
+</span>
