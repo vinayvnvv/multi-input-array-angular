@@ -5,6 +5,7 @@
 /dist-server
 /tmp
 /out-tsc
+/lib/multi-input-array
 
 # dependencies
 /node_modules

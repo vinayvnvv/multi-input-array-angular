@@ -6,9 +6,11 @@
         <button>x</button><br/>
       </ng-template>
       <multi-input [template]="templateRef" [deleteTemplate]="delTemplateRef" [(model)]="model" [classList]="classList"></multi-input>
+      <input [(ngModel)]="model" required="" style="display: none" />
 </multi-input-array>
 
-<br/><br/><hr/>final model = {{model | json}}
+<hr/>
+{{model | json}}
 
 
 

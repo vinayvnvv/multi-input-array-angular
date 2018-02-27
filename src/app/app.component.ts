@@ -8,7 +8,7 @@ import { MultiInputClassList } from './multi-input/multi-input.component';
 })
 export class AppComponent implements OnInit {
   title = 'app';
-  model: Array<any> = [];
+  // model: Array<any> = [];
   classList: MultiInputClassList = new MultiInputClassList();
 
   ngOnInit() {

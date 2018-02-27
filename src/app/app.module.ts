@@ -4,19 +4,20 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
-import { MultiInputComponent, MultiInputArrayComponent } from './multi-input/multi-input.component';
-
+// import { MultiInputComponent, MultiInputArrayComponent, MultiInputClassList } from './multi-input/multi-input.component';
+// import { MultiInputModule } from './../../lib/multi-input-array/bundles/ng-libs-multi-input-array.umd.js';
+import { MultiInputModule } from "@ng-libs/multi-input-array";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MultiInputComponent,
-    MultiInputArrayComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
-  ],
+    FormsModule,
+    MultiInputModule
+  ], 
+  exports: [],
   providers: [],
   bootstrap: [AppComponent]
 })
