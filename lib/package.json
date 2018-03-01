@@ -1,7 +1,14 @@
 {
   "name": "@ng-libs/multi-input-array",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vinayvnvv/multi-input-array-angular"
+  },
+  "bugs": {
+    "url": "https://github.com/vinayvnvv/multi-input-array-angular"
+  },
   "peerDependencies": {
     "@angular/common": "^5.2.0",
     "@angular/core": "^5.2.0"

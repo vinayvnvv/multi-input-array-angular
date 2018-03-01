@@ -42,7 +42,7 @@ export class AppModule { }
 @Component({
     selector: 'app',
     template: `
-	<multi-input-array>
+  <multi-input-array>
       <ng-template #templateRef>
         <input type="text" placeholder="Add Items"/>  
       </ng-template>
@@ -96,7 +96,7 @@ Give an example
 @Component({
     selector: 'app',
     template: `
-	<multi-input-array>
+  <multi-input-array>
       <ng-template #templateRef>
         <input type="text" placeholder="Add Items"/>  
       </ng-template>
@@ -108,11 +108,11 @@ Give an example
 });
 export class App {
     items = ['Pizza', 'Pasta', 'Parmesan'];
-	classList = {
-		parentClass: '_multi-input-array'
-		itemClass: '_item'
-		outerDeleteClass: '_del'
-	}
+  classList = {
+    parentClass: '_multi-input-array'
+    itemClass: '_item'
+    outerDeleteClass: '_del'
+  }
 }
 ```
 ```html

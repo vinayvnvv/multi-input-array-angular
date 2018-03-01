@@ -1,5 +1,4 @@
 import { Component, TemplateRef, OnInit } from '@angular/core';
-import { MultiInputClassList } from './multi-input/multi-input.component';
 
 @Component({
   selector: 'app-root',
@@ -9,12 +8,15 @@ import { MultiInputClassList } from './multi-input/multi-input.component';
 export class AppComponent implements OnInit {
   title = 'app';
   // model: Array<any> = [];
-  classList: MultiInputClassList = new MultiInputClassList();
+  classList: any = {};
+  model = ['sdss', 'eee'];
 
   ngOnInit() {
   	this.classList.itemClass = "_items";
   	this.classList.parentClass = "multi-input-array";
   	this.classList.outerDeleteClass = '_del';
+    setTimeout(() => { this.model.push("aaa", "bbbb") }, 2000)
+    setTimeout(() => { this.model = ["zzzz"] }, 9000)
   }
 
   aa(ref) {
