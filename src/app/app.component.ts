@@ -15,8 +15,8 @@ export class AppComponent implements OnInit {
   	this.classList.itemClass = "_items";
   	this.classList.parentClass = "multi-input-array";
   	this.classList.outerDeleteClass = '_del';
-    setTimeout(() => { this.model.push("aaa", "bbbb") }, 2000)
-    setTimeout(() => { this.model = ["zzzz"] }, 9000)
+    // setTimeout(() => { this.model.push("aaa", "bbbb") }, 2000)
+    // setTimeout(() => { this.model = ["zzzz"] }, 9000)
   }
 
   aa(ref) {

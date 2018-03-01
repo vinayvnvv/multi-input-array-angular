@@ -2,6 +2,8 @@
 
 Component will take a single model and component will return array of data by displaying array of inputs.
 
+[![](https://ucarecdn.com/2f7fc408-01b0-45d0-bbb9-3fa9e3c3e49e/aa.gif)](https://ucarecdn.com/2f7fc408-01b0-45d0-bbb9-3fa9e3c3e49e/aa.gif)
+
 
 ## Features
 - Automatically increments the array of inputs once the last input is typed.
@@ -73,9 +75,7 @@ export class App {
 
 -  **`MultiInputArrayComponent`** - Outlet for taking templates for multi-input. It Contains `MultiInputComponent` along with templates for `<input>` field and `delete`.
 -  **`MultiInputComponent`** - Actual Component which will take `Model` along with templates and converts it into array of inputs must be include within `MultiInputArrayComponent`.
-```
-Give an example
-```
+
 
 ### Api for MultiInput Component
 
